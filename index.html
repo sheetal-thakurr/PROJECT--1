@@ -1,0 +1,204 @@
+<html>
+<head>
+    <title>Sheetal fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Lobster&family=Pacifico&family=Shizuru&family=Syne+Mono&display=swap"
+        rel="stylesheet">
+    <style>
+        /* css reset */
+        body {
+            margin: 0px;
+            padding: 0px;
+            background: url('image/sss.jpg') no-repeat center center/cover;
+            color: white;
+            font-family: 'Syne Mono', monospace;
+            /* height: 100%;
+            width: 100%; */
+        }
+
+        .left {
+            /* border: 3px solid red; */
+            display: inline-block;
+            position: absolute;
+            left: 45px;
+            top: 10px;
+
+        }
+
+        .left img {
+            width: 135px;
+        }
+
+        .left div {
+            text-align: center;
+            line-height: 35px;
+        }
+
+        .mid {
+            display: block;
+            width: 45%;
+            margin: 30px auto;
+           
+            /* padding:25px 15px ; */
+            /* border: 3px solid green; */
+
+        }
+        #sticky{
+            position: sticky;
+            top: 10px;
+        }
+
+
+
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            /* padding: 15px 10px; */
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: black;
+        }
+
+
+        .right {
+            display: inline-block;
+            position: absolute;
+            right: 35px;
+            top: 10px;
+
+            /* border: 3px solid yellow; */
+        }
+
+        .btn {
+            background-color: beige;
+            color: black;
+
+            margin: 0px 10px;
+            padding: 5px 10px;
+            border: 2px solid #c1a480;
+            ;
+            border-radius: 12px;
+            font-size: 15px;
+            cursor: pointer;
+            font-family: 'Syne Mono', monospace;
+        }
+
+        .btn:hover {
+            background-color: #857663;
+            color: white;
+
+
+        }
+
+        .container {
+            border: 2px solid blanchedalmond;
+            color: black;
+            border-radius: 10px;
+            padding: 70px;
+            margin: 100px 45px;
+            display: block;
+            width: 400px;
+        }
+
+        .container h1 {
+            text-align: center;
+
+        }
+
+        .container button {
+            display: block;
+            width: 450px;
+            margin: 10px auto;
+            font-size: 20px;
+            text-align: center;
+            padding: 15px;
+            font-family: 'Syne Mono', monospace;
+
+
+        }
+
+        .container button:hover {
+            background-color: rgb(228, 216, 216);
+            color: black;
+        }
+
+        .form-group input {
+            font-size: 20px;
+            margin: 10px auto;
+            padding: 15px;
+            text-align: center;
+            display: block;
+            width: 450px;
+            font-family: 'Syne Mono', monospace;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header" id="sticky">
+
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="image/myphoto.jpg" alt="">
+            <div> sheetal fitness</div>
+
+        </div>
+
+        <!-- mid box for navbar -->
+        <div class="mid" >
+            <ul class="navbar">
+                <li><a class="active" href=""> home</a></li>
+                <li><a href=""> about us </a></li>
+                <li><a href=""> fitness calculator</a></li>
+                <li><a href=""> contact us</a></li>
+            </ul>
+        </div>
+
+        <!-- right box for buttons  -->
+        <div class="right">
+            <button class="btn"> Call us </button>
+            <button class="btn">Email us </button>
+        </div>
+    </header>
+    <div class="container">
+        <h1> <b>Join the best gym of your area now </b></h1>
+        <form action="">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+
+            <div class="form-group">
+                <input type="number" name="" placeholder="Enter your Phone number">
+            </div>
+            <div class="form-group">
+                <input type="email" name="" placeholder="Enter your Email">
+            </div>
+            <button class="btns">
+                submit
+            </button>
+
+
+        </form>
+    </div>
+
+</body>
+
+</html>
